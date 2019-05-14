@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <h1>Tic Tac Toe</h1>
+    <table>
+        <tr>
+            <td id='0-0' onclick='onSquarePressed(0,0)'></td>
+            <td id='0-1' onclick='onSquarePressed(0,1)' class="vert"></td>
+            <td id='0-2' onclick='onSquarePressed(0,2)'></td>
+        </tr>
+        <tr>
+            <td id='1-0' onclick='onSquarePressed(1,0)' class="hori"></td>
+            <td id='1-1' onclick='onSquarePressed(1,1)' class="vert hori"></td>
+            <td id='1-2' onclick='onSquarePressed(1,2)' class="hori"></td>
+        </tr>
+        <tr>
+            <td id='2-0' onclick='onSquarePressed(2,0)'></td>
+            <td id='2-1' onclick='onSquarePressed(2,1)' class="vert"></td>
+            <td id='2-2' onclick='onSquarePressed(2,2)'></td>
+        </tr>
+    </table>
+    <script src="index.js"></script>
+</body>
+
+</html>
